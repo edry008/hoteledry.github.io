@@ -1,0 +1,202 @@
+.background-image {
+    background-image: url("bck.jpg"); /* Replace with your image path */
+    background-repeat: no-repeat; /* Prevent image tiling */
+    background-size: cover; /* Stretch image to fill container */
+    position:absolute; /* Needed for proper layering */
+    width: 100%; /* Set width (adjust height as needed) */
+    height: 500px; /* Set height (adjust as needed) */
+    background-color: rgba(0, 0, 0, 0.5); /* 50% transparency */
+    opacity: 0.8;
+    z-index: -1;
+  }
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 10;
+    padding: 10;
+    color: #000000;
+    font-weight: 900;
+    background-color: #212121;
+   
+
+  }
+  .contact-bar-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex; /* Arrange bars horizontally */
+    flex-direction: column; /* Stack bars vertically */
+    list-style: none; /* Remove default list style */
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+  }
+  
+  .contact-bars {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 10px;
+    font-size: 0.8rem;
+    display:block;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border: 20px;; /* Remove default button border */
+    border-radius: 10px; /* Add rounded corners */
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+  
+  .contact-bars a {
+    color: inherit; /* Inherit white text color from parent */
+    text-decoration: none;
+  }
+  
+  .contact-bars i {
+    margin-right: 150px;
+    max-width: 10px;
+    font-size: 1rem; /* Adjust icon size as needed */
+  }
+  
+  .contact-bars:hover {
+    background-color: #212121; /* Darker shade on hover */
+  }
+  a {
+    text-decoration:double;
+    color: #000000;
+    position: relative;
+  }
+  
+
+ h2, h3, h4, h5, h6 {
+font-family: serif;    font-weight: 800;
+    margin-bottom: 10px;
+    z-index: 10;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  /* Header */
+
+  
+  header img {
+    display:grid;
+    margin: 0 auto;
+    max-width: 200px;
+  }
+  
+  header h1 {
+    font-size: 80px;
+font-family: 'Times New Roman', Times, serif;    margin-top: 0;
+    font-weight:bold;
+    color: #000;
+    z-index: 100;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Hero sekce */
+  .hero {
+    background-color: #000;
+    position: relative;
+    height: 500px;
+  }
+  
+  .hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero-text h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text a {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  /* O nás */
+  .o-nas {
+    padding: 50px 0;
+  }
+  
+  .o-nas h2 {
+    font-size: 55px;
+    margin-bottom: 20px;
+  }
+  
+  .o-nas p {
+    font-size: 35px;
+    line-height: 1.8;
+  }
+  
+  .infografika {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .infografika ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .infografika ul li {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .infografika ul li .cislo {
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .infografika ul li p {
+    font-size: 18px;
+  }
+  
+  /* Fotogalerie */
+  .fotogalerie {
+    padding: 50px 0;
+  }
+  
+  .fotky {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
